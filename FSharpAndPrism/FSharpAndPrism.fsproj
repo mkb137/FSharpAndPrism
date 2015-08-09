@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3777750c-5716-4be4-bd43-62fea8def2a3</ProjectGuid>
+    <ProjectGuid>78cc1c47-c6e9-468b-8d31-4ad6539759e1</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FSharpAndPrism</RootNamespace>
     <AssemblyName>FSharpAndPrism</AssemblyName>

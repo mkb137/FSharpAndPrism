@@ -1,7 +1,12 @@
-﻿// Learn more about F# at http://fsharp.net
-// See the 'F# Tutorial' project for more help.
+﻿
+open System
+open FSharpAndPrism.Views
 
 [<EntryPoint>]
+[<STAThread>]
 let main argv = 
     printfn "%A" argv
-    0 // return an integer exit code
+    log4net.Config.XmlConfigurator.Configure() |> ignore
+    let app = new App()
+    app.Run()
+
